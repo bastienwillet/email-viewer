@@ -20,7 +20,7 @@ Lien -> [AutoMailer](https://automaileroui.herokuapp.com/)<br />
 
 1. Se positionner sur le dossier avec le terminal
 2. Lancer $ bundle install && rails db:create && rails db:migrate && rails db:seed && bundle exec rake assets:precompile
-". Lancer $ rails test
+3. Lancer $ rails test
 
 Les tests sont dans test/controllers/emails_controller_test.rb
 
