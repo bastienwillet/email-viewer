@@ -1,0 +1,75 @@
+.email-show
+{
+    width: 1000px;
+    margin-top: 60px;
+    padding: 0px;
+}
+
+.email-show-content
+{
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 35px;
+    border: 0px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.096);
+}
+
+.delete-button
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    transform: translate(891px, 7px);
+    width: 89px;
+    height: 28px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.842);
+    border: 0px;
+    border-radius: 8px 0px 8px 0px;
+    color: #4c4177;
+}
+
+.delete-button:hover
+{
+    filter: opacity(70%);
+    transition: all  0.5s ease;
+}
+
+@media all and (max-width: 1400px) {
+    .email-show
+    {
+        width: 800px;
+    }
+
+    .delete-button
+    {
+        transform: translate(691px, 7px);
+    }
+}
+
+@media all and (max-width: 1200px) {
+    .email-show
+    {
+        width: 600px;
+    }
+
+    .delete-button
+    {
+        transform: translate(491px, 7px);
+    }
+}
+
+@media all and (max-width: 1000px) {
+    .email-show
+    {
+        width: 400px;
+    }
+
+    .delete-button
+    {
+        transform: translate(291px, 7px);
+    }
+}

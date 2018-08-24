@@ -1,0 +1,7 @@
+$(document).ready(function() {
+    $("#email-<%= @email.id %>").removeClass('email-read');
+    $('#show').empty();
+    let show_email = $("<%= j (render 'layouts/showemail', email: @email) %>").hide();
+    $('#show').prepend(show_email);
+    show_email.fadeIn();
+});

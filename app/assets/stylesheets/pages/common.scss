@@ -1,0 +1,25 @@
+.container
+{ 
+    margin: 0 auto;
+    width: 100%;
+}
+
+.wrapper
+{
+    height: 102vh;
+    background-color: #4c4177;
+    background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
+}
+
+h1, h2, h3, h4, h5, h6, p, a
+{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover
+{
+    filter: opacity(70%);
+    transition: all  0.5s ease;
+}

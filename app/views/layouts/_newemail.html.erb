@@ -1,0 +1,11 @@
+<% if @email.errors.any? %>
+    <% @email.errors.full_messages.each do |message| %>
+      <li style="color:red;">Error: <%= message %></li>
+    <% end %>
+<% else %>
+    <% if email.read == false %>
+        <li id="email-<%= email.id %>" class="email-read"><%= link_to email.object, email_path(email), method: :get, remote: true %></li>
+    <% else %>
+        <li id="email-<%= email.id %>"><%= link_to email.object, email_path(email), method: :get, remote: true %></li>
+    <% end %>
+<% end %>

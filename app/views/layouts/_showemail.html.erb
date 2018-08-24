@@ -1,0 +1,11 @@
+<% if @email.errors.any? %>
+    <% @email.errors.full_messages.each do |message| %>
+      <li style="color:red;">Error: <%= message %></li>
+    <% end %>
+<% else %>
+    <div class="email-show-content">
+        <h3><%= email.object %></h3>
+        <p><%= email.body %></p>
+        <%= link_to "Supprimer", email_path(email), method: :delete, remote: true, class: "delete-button" %>
+    </div>
+<% end %>
