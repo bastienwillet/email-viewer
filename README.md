@@ -8,7 +8,7 @@ He ben voila, un beau back-end avec tout plein de tests qui prennent la tête. C
 
 ## Comment accéder au programme sur Heroku ?
 
-Lien -> [AutoMailer](URL)<br />
+Lien -> [AutoMailer](https://automaileroui.herokuapp.com/)<br />
 
 ## Comment accéder au programme en local ?
 
